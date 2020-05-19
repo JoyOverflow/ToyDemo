@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Handler.DelayActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -21,6 +21,10 @@
         <activity android:name=".LocationActivity">
         </activity>
         <activity android:name=".BluetoothActivity">
+        </activity>
+        <activity android:name=".ThreadActivity">
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
